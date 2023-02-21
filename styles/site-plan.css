@@ -100,7 +100,7 @@ p.colored {
 }
 
 nav {
-  background-color: var(--nav-background-color);
+  background-color: skyblue;
   line-height: 3em;
   text-align: center;
   font-size: 1.2em;
@@ -118,11 +118,11 @@ nav a {
 
 }
 nav a:link, nav a:visited {
-  color: var(--nav-link-color);
+  color: rgb(38, 163, 163);
 }
 nav a:hover {
-  color: var(--nav-hover-link-color);
-  background-color: var(--nav-hover-background-color);
+  color: peachpuff;
+  background-color: rgb(163, 159, 159);
 }
 
 .sitemap {
