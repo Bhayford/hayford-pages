@@ -37,8 +37,10 @@ body {
   text-align: center;
 }
 img {
+  width: 40%;
   display: block;
   margin: 0 auto;
+  padding: 1em;
 }
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--heading-font);
@@ -65,7 +67,7 @@ header > h1, header > h2 {
 p {
   font-family: var(--paragraph-font);
   color: var(--paragraph-color-on-white);
-  padding: 1em;
+  padding: 1.5em;
 }
 .colors {
   width: 100%;
