@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Julee&family=Lora:ital@1&family=Oswald&display=swap');
+
+
+
+body {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 4em;
+    font-size: 18px;
+    text-align: center;
+    background-color: #E4FDE1;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: 2em;
+    font-family:Oswald;
+    color:slategrey;
+}
+
+p {
+    font-size: 1.2em;
+    font-family:Lora;
+    color:brown;
+    padding: 1.5em;
+  }
+
+#content  {
+    max-width: 1600px;
+    margin: 0 auto;
+    
+}
+
+header {
+    margin: 0 auto;
+    text-align: center;
+    background-color:#8ACB88;
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+
+#hero-img {
+    width: 100%;
+}
+
+
+.logo  {
+    display: flex;
+    justify-content: space-around;
+    width: 130px;
+}
+
+#logo-link  {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+nav a  {
+    margin: 0 auto;
+    font-size: 1.5em;
+    padding: 50px;
+    color: #575761;
+    text-decoration: none;
+}
+
+nav a:hover  {
+    background-color: #575761;
+    color: #FFBF46;
+
+}
+
+#fam-img {
+    width: 40%;
+}
+
+p {
+    font: Lora, Dosis, Julee;
+}
+
+
+footer  {
+    margin-top: 200px;
+    background-color: #8ACB88;
+    color: #575761;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer a {
+    color:#575761 ;
+    text-decoration: none;
+}
+
+footer a:hover {
+    background-color: #575761;
+    color: #FFBF46;
+
+}
+
+footer .social img {
+    padding-top: 15px;
+    width: 80px;
+}
