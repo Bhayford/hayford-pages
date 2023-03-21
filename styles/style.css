@@ -11,6 +11,10 @@ body {
     background-color: #E4FDE1;
 }
 
+
+
+
+
 h1, h2, h3, h4, h5, h6 {
     font-size: 2em;
     font-family:Oswald;
@@ -25,6 +29,7 @@ p {
   }
 
 #content  {
+    padding: 16px;
     max-width: 1600px;
     margin: 0 auto;
     
@@ -55,16 +60,20 @@ header {
     align-self: center;
 }
 
-nav {
+nav, .search-container {
+    overflow: hidden;
     display: flex;
     justify-content: space-around;
 }
 
 
 
-nav a  {
+nav a, .search-container   {
+    float: left;
+    display: block;
+    text-align: center;
     margin: 0 auto;
-    font-size: 1.5em;
+    font-size: 1em;
     padding: 50px;
     color: #575761;
     text-decoration: none;
@@ -109,3 +118,17 @@ footer .social img {
     padding-top: 15px;
     width: 80px;
 }
+
+@media screen and (max-width: 600px) {
+    nav a, nav a  {
+      float: none;
+      display: block;
+      text-align: left;
+      width: 100%;
+      margin: 0;
+      padding: 14px;
+    }
+    .topnav input[type=text] {
+      border: 1px solid #ccc;
+    }
+  }
